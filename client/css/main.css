@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "main";
+  src: url("./fonts/main.ttf");
+}
+@keyframes button_1 {
+  from{
+    width: 25vw;
+    height: 5vh;
+  }
+  to{
+    width: 27vw;
+    height: 7vh;
+  }
+}
+@-webkit-keyframes button_1 {
+  from{
+    width: 25vw;
+    height: 5vh;
+  }
+  to{
+    width: 27vw;
+    height: 7vh;
+  }
+}
+@-moz-keyframes button_1 {
+  from{
+    width: 25vw;
+    height: 5vh;
+  }
+  to{
+    width: 27vw;
+    height: 7vh;
+  }
+}
+@-o-keyframes button_1 {
+  from{
+    width: 25vw;
+    height: 5vh;
+  }
+  to{
+    width: 27vw;
+    height: 7vh;
+  }
+}
+*{
+  font-family: "main";
+}
+html body{
+  background-color: #2c2f33;
+  background-image: url('../img/background.png');
+}
+.formContainer{
+  margin-top: 30vh;
+  margin-left: 34vw;
+}
+.imgHolder{
+  border-radius: 50%;
+  margin-top: -10px;
+  margin-bottom: 9vh;
+}
+.title h4{
+  color: white;
+  margin-bottom: 2vh;
+  margin-top: -5px;
+}
+.darkForm{
+  background-color: #2c2f33;
+  width: 30vw;
+  height: 40vh;
+  padding: 14px 16px;
+  text-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 5px 10px;
+}
+.darkForm input[type="text"]{
+  position: relative;
+  height: 5vh;
+  width: 25vw;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: #23272a;
+  border: 1px solid black;
+  color: white;
+  outline-color: #7289da;
+}
+.darkForm button{
+  position: relative;
+  bottom: -10vh;
+  width: 25vw;
+  height: 5vh;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: #7289da;
+  color: white;
+
+}
+.darkForm button:hover{
+  animation-name: button_1;
+  animation-duration: 2s;
+  -webkit-animation-name: button_1;
+  -webkit-animation-duration: 2s;
+  -o-animation-name: button_1;
+  -o-animation-duration: 2s;
+  -moz-animation-name: button_1;
+  -moz-animation-duration: 2s;
+  width: 27vw;
+  height: 7vh;
+}
+.mainContent{
+  background-color: #363942;
+  height: 100%;
+  width: 60%;
+  margin-top: 0;
+  overflow:auto;
+  position: fixed;
+  top: 0vh;
+  left: 19vw;
+}
+
+.sendCont input[type="text"]{
+  width: 54vw;
+  position: fixed;
+  left: 22vw;
+  bottom: 10vh;
+  height: 6vh;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  font-size: 2vh;
+  background-color:	#474A53;
+  color: #92949c;
+}
+.rectRow{
+  width: 60vw;
+  height: 0.1vh;
+  position: fixed;
+  bottom: 20vh;
+  background-color: #99aab5;
+}
+.messageContainer{
+  z-index:0;
+  overflow: auto;
+  display: block;
+  position: relative;
+  top: 0vh;
+  color: white;
+}

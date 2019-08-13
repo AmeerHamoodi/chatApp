@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="http://localhost:2000/socket.io/socket.io.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="notLoggedIn" id="logged">
+      <h4 style="color: white">Nodecord</h4>
+      <div class="formContainer" id="formName">
+        <form id="nameForm" class="darkForm">
+          <div class="title">
+            <div class="imgHolder">
+              <img src="./img/nodecord.png" width="60vw" height="60vh">
+            </div>
+          </div>
+          <input type="text" id="username" placeholder="enter name" value="guest">
+          <button type="submit" id="sendUid">Enter</button>
+        </form>
+      </div>
+    </div>
+    <div class="mainContent" id="main" style="display: none">
+      <div class="messageContainer" id="messages">
+      </div>
+      <div class="sendCont">
+        <form id="messageForm">
+          <div class="rectRow"></div>
+          <input type="text" id="message" placeholder="enter message">
+        </form>
+      </div>
+    </div>
+    <script defer src="./js/main.js" charset="utf-8"></script>
+  </body>
+</html>
