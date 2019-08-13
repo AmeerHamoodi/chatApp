@@ -10,21 +10,11 @@
   "author": "Ameer Hamoodi",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
     "express": "^4.17.1",
-    "gulp": "^4.0.2",
-    "jshint": "^2.10.2",
-    "nodemon": "^1.19.1",
     "socket.io": "^2.2.0",
-    "webpack": "^4.39.1"
   },
   "engines": {
     "node": "10.15.3"
   },
-  "dependencies": {
-    "babel": "^6.23.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-jshint": "^2.1.0",
-    "webpack-stream": "^5.2.1"
-  }
+  "dependencies": {}
 }
