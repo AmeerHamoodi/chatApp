@@ -4,7 +4,7 @@
   "description": "node js and socket io replica of discord",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js"
   },
   "author": "Ameer Hamoodi",
   "license": "MIT",
